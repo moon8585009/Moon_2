@@ -74,7 +74,7 @@ class Config:
         self.RADIO_IMG: str = getenv("RADIO_IMG", "https://kommodo.ai/i/ePwZMCEK2bB6VS7Xef36")
         
         # Sticker ID for welcome message
-        self.STICKER_ID: str = getenv("STICKER_ID", "CAACAgUAAxkBAAERZd9qMHDSNUAH_8ZAnU4aT97Aw5THZwACdh8AApKxgFWOSimDJoOjCjwE")
+        self.STICKER_ID: str = getenv("STICKER_ID", "https://t.me/addstickers/MyStickersuhipack_by_fStikBot")
 
         # Moderation
         self.EXCLUDED_USERNAMES: List[str] = getenv("EXCLUDED_USERNAMES", "").split()
